@@ -1,0 +1,550 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+
+
+}
+
+#container {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+
+
+}
+
+#topnav {
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    margin-top: -5px;
+    background-color:whitesmoke;
+
+    
+
+    
+
+
+
+}
+
+
+.iteams {
+
+    display: inline block;
+    list-style: none;
+    margin: 0px 40px;
+    
+
+
+}
+
+.it {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+
+}
+
+.it:hover {
+    text-decoration: double;
+
+    color:green;
+    text-decoration: underline;
+
+
+}
+
+ul {
+    display: flex;
+}
+
+#about {
+    background-color: white;
+    width: 100%;
+    height: 600px;
+}
+
+#hedd {
+    position: absolute;
+    margin-top: -590px;
+    margin-left: 50px;
+    font-size: 60px;
+    font-family: "Cutive Mono", monospace;
+}
+
+#heddd {
+    position: absolute;
+    margin-top: -620px;
+    margin-left: 50px;
+    font-size: 40px;
+    font-family: "Cutive Mono", monospace;
+}
+
+#hed {
+    position: absolute;
+    margin-top: -680px;
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: "Oswald", sans-serif;
+}
+
+
+
+
+
+#span1 {
+    margin-top: 20px;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#p2 {
+    margin-top: 20px;
+    text-align: justify;
+    align-items: center;
+    font-size: 20px;
+    margin-left: 60px;
+}
+
+#but {
+    margin-top: -400px;
+    margin-right: -780px;
+    color: black;
+
+
+}
+
+.button:hover {
+    text-decoration: none;
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+
+.button1:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.button {
+    margin-top: -100px;
+    margin-left: 170px;
+    position: absolute;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+
+
+}
+
+.button1 {
+    position: absolute;
+    margin-left: -590px;
+    margin-top: 50px;
+    color: black;
+    background-color: whitesmoke;
+    font-size: 10px;
+    padding: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+
+.offerimg {
+    position: relative;
+    margin: 20px;
+}
+
+.offerhed {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 900px;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+}
+
+.offerhed1 {
+    position: absolute;
+    margin-top: -580px;
+    margin-left: 900px;
+    font-size: 40px;
+    font-family: "Bona Nova SC", serif;
+
+}
+
+.offerhed2 {
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 900px;
+    font-size: 40px;
+    font-family: "Bona Nova SC", serif;
+
+}
+
+.obut {
+    position: absolute;
+    margin-top: 120px;
+    margin-left: -180px;
+    padding: 10px;
+    font-family: "Bona Nova SC", serif;
+    border-radius: 10px;
+
+
+}
+
+.obut:hover {
+    text-decoration: none;
+    background-color:black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.row {
+    height: 700px;
+    background-color:white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: -70px;
+
+
+
+}
+
+.col {
+    width: 400px;
+    height: 450px;
+    border: 1px;
+    
+
+
+
+}
+
+
+#face {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+
+}
+
+.col1 {
+    margin-left: 169px;
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "Bona Nova SC", serif;
+    border-radius: 10px;
+
+}
+
+.col1:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.col5 {
+    margin-left: 10px;
+    margin-top: 150px;
+    padding: 10px;
+    font-family: "Bona Nova SC", serif;
+}
+
+#colp1 {
+    margin-top: 10px;
+    font-family: "Bona Nova SC", serif;
+    text-align: center;
+
+}
+
+#colp12 {
+    margin-top: -20px;
+    font-family: "Bona Nova SC", serif;
+    text-align: center;
+}
+
+#hair {
+
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -20px;
+    font-size: 30px;
+    font-family: "Bona Nova SC", serif;
+}
+
+#hr {
+    margin-top: 40px;
+}
+
+.beautyp {
+    position: absolute;
+    margin-top: -500px;
+    margin-left: 30px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 80px;
+}
+
+.bbutton {
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+    background-color:whitesmoke;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+.bbutton:hover{
+    cursor: pointer;
+    background-color: black;
+    color:whitesmoke;
+}
+
+.fot {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:whitesmoke;
+    padding: 10px;
+    color:black;
+    height: 600px;
+    font-family: "Bona Nova SC", serif;
+
+}
+
+.ab {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    font-family: "Bona Nova SC", serif;
+    
+}
+
+
+.ab1 {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 75px;
+    font-family: "Bona Nova SC", serif;
+    
+}
+
+.li1 {
+    padding: 15px;
+    margin-left: -17px;
+    font-family: "Bona Nova SC", serif;
+
+
+}
+
+.li2 {
+
+    padding: 15px;
+    margin-left: -17px;
+    font-family: "Bona Nova SC", serif;
+    
+
+
+}
+
+.li:hover{
+    text-decoration:underline;
+    color:green;
+    cursor: pointer;
+}
+.li2:hover{
+    color: green;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.imgfot{
+    margin-left: -50px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+#email{
+    margin-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    
+    
+}
+
+#stay{
+    margin-left: 33px;
+    margin-top: 190px;
+    padding-bottom: 20px;
+}
+#copyright{
+    position: absolute;
+    margin-top: -40px;
+    padding-bottom: 30px;
+    margin-left: 180px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 14px;
+
+
+}
+.iconcollection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+    
+}
+.icons{
+    /* border: solid; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.brands{
+    color: black;
+    font-size: 1.2rem;
+}
+.icons:hover{
+  
+  background-image: linear-gradient(to bottom right,green,white);
+}
+.icons:hover .brands{
+    color: white;
+    animation: rotate 5s;
+
+}
+@keyframes rotate{
+    0%{
+        transform: rotate(30deg);
+    }
+    20%{
+        transform: rotate(-30deg);
+    }
+    40%{
+        transform: rotate(30deg);
+    }
+    60%{
+        transform: rotate(-30deg);
+    }
+    80%{
+        transform: rotate(30deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border: 1px solid;
+    height: 700px;
+    margin-top: 200px;
+}
+.img1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px ;
+    margin-top: px;
+    height: 450px;
+    justify-content: center;
+    background-color: whitesmoke;
+    
+}
+
+#vitc{
+    margin-top: 180px;
+    margin-left: 120px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+}
+#vitimg{
+    margin-top: -120px;
+    margin-left: 120px;
+}
+#cname{
+    margin-top: -110px;
+    margin-left: 143.5%;
+    font-size: 20px;
+    font-family: "Bona Nova SC", serif;
+
+}
+#cbutton{
+    font-size: 15px;
+    font-family: "Bona Nova SC", serif;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 380px;
+    margin-left: 1045px;
+
+
+}
+#cbutton:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+.img2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    border: 1px ;
+    height: 450px;
+    justify-content: center;
+    background-color: whitesmoke;
+    
+}
+#bestseller{
+    margin-top: 205px;
+    text-align: center;
+    border: 1px ;
+    font-size: 40px;
+    padding: 10px;
+    font-family: "Bona Nova SC", serif;
+    background-color:whitesmoke;
+}
+#sbutton{
+    font-size: 15px;
+    font-family: "Bona Nova SC", serif;
+    padding: 10px;
+    border-radius: 10px;
+    position: absolute;
+    margin-top: 384px;
+    margin-left: 200px;
+
+
+}
+#sbutton:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#simg{
+    margin-top: -140px;
+    margin-left: 50px;
+}
+#sun{
+    margin-top: 180px;
+    margin-left: 50px;
+    font-family: "Bona Nova SC", serif;
+    font-size: 20px;
+
+}
